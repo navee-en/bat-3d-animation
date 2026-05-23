@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Testing Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Web Testing Tool 🔍</h1>
+
+<!-- Email Test -->
+<h2>Email Validation</h2>
+<input type="text" id="email" placeholder="Enter Email">
+<button onclick="validateEmail()">Test</button>
+<p id="emailResult"></p>
+
+<!-- Password Test -->
+<h2>Password Strength</h2>
+<input type="password" id="password" placeholder="Enter Password">
+<button onclick="checkPassword()">Check</button>
+<p id="passResult"></p>
+
+<!-- URL Test -->
+<h2>Phishing URL Detector</h2>
+<input type="text" id="url" placeholder="Enter URL">
+<button onclick="checkURL()">Scan</button>
+<p id="urlResult"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
